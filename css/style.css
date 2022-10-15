@@ -142,12 +142,6 @@ img {
   height: 120px;
 }
 
-/* hyperlink will not change color after visited */
-a:visited {
-  color: #fff; 
-  background-color: transparent;
-}
-
 .about-heading {
   text-align: center;
   text-overflow: none;
