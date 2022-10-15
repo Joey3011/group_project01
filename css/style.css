@@ -76,6 +76,12 @@ figcaption h2, h3{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+img {
+  width: 200px;
+  height: 120px;
+}
+
+/*FOOTER PART*/
 footer{
   position: fixed;
   display: flex;
@@ -121,8 +127,5 @@ footer p{
   text-align: center;
 }
 
-img {
-  width: 200px;
-  height: 120px;
-}
+
 
