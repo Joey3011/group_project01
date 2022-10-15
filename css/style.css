@@ -9,15 +9,11 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
   background-image: url('../image/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-blend-mode: multiply;
-  font-weight: bolder;
 }
 
 nav{
@@ -26,10 +22,9 @@ nav{
   background-color: rgba(65, 105, 225, 1);
   flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
   height: 70px;
   width: 100%;
-  z-index: 1;
+  top: 0;
 }
 
 nav ul{
@@ -133,62 +128,6 @@ img {
   height: 120px;
 }
 
-<<<<<<< HEAD
-=======
-.contents {
-  max-width: 850px;
-  width: 85%;
-  margin: 0 auto;
-  padding: 75px 0;
-}
-
-/*SECTION DIVIDER*/
-.divider > section {
-  border-bottom: 0.5px dashed #969494;
-  padding: 30px 0;
-}
-
-.divider > section:last-of-type {
-  border-bottom: none;
-}
-
-/* PROJECTS */
-
-.projects {
-  background: #ffffff;
-}
-
-.projects a {
-  color: #2f5db4;
-}
-
-.projects .btn {
-  color: #F7FFF7;
-  background: rgba(65, 105, 225, 0.9);
-  text-decoration: none;
-  padding: 7px;
-  border-radius: 15px;
-  display: inline-block;
-}
-
-.projects .btn:hover {
-  background-color: rgba(39, 86, 230, 0.9);
-}
-
-.project {
-  overflow: hidden;
-}
-
-.project img {
-  float: left;
-  margin-right: 20px;
-}
-
-.project h3 {
-  margin-top: 0;
-}
-
->>>>>>> 6d892ab41a1e3118ad594374c8e535821aca2e6f
 /*FOOTER PART*/
 footer{
   position: fixed;
