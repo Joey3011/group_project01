@@ -48,6 +48,7 @@ nav ul li a {
    color: #fff;
    font-size: 14px;
 }
+
 /* Section part */
 
 article{
@@ -131,6 +132,13 @@ figcaption{
 img {
   width: 200px;
   height: 120px;
+}
+
+/*hyperlink will not change color after visited*/
+a:visited {
+  color: blue; 
+  background-color: transparent;
+  text-decoration: none;
 }
 
 /*FOOTER PART*/
