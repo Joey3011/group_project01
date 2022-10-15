@@ -81,6 +81,16 @@ img {
   height: 120px;
 }
 
+/*SECTION DIVIDER*/
+.divider > section {
+  border-bottom: 0.5px dashed #969494;
+  padding: 30px 0;
+}
+
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
 /*FOOTER PART*/
 footer{
   position: fixed;
