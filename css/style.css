@@ -126,16 +126,60 @@ img {
   display: grid;
   flex-direction: column;
 }
+
+/* Form Contact*/
 .contact{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  border: 1px solid #000;
   margin-top: 220px;
 }
+form{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 50%;
+  padding: 1rem 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.form-input,    
+textarea {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.2rem;
+    width: 100%;
+    font-family: inherit;
+    font-size: 0.9rem;
+    text-indent: 10px;
+}
 
+.form-button{
+  margin-top: 10px;
+  background:royalblue;
+  color: #fff;
+  border:1px solid white;
+  border-radius: 0.25rem;
+  font-size: 0.8em;
+  font-weight: 400;
+  text-align: center;
+  padding:.5em .75em;
+  cursor: pointer;
+  user-select: none;
+  font-style: normal;
+}
+h1{
+  text-align: center;
+  padding: 10px;
+}
+
+.form-label{
+  width:100%;
+  font-size: 0.8rem;
+}
 
 /*FOOTER PART*/
 footer{
@@ -210,6 +254,12 @@ footer p{
   }
   
   @media only screen and (max-width: 600px) {
+
+    form {
+      display: block;
+      width: 100%;
+      margin-bottom: 75px;
+    }
     .container {
       display: block;
       width: 100%;
