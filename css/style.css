@@ -12,7 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: url('/image/background.jpg');
+  background-image: url('../image/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,12 +23,13 @@ body {
 nav{
   position: fixed;
   display: flex;
-  background-color: rgba(65, 105, 225, 0.8);
+  background-color: rgba(65, 105, 225, 1);
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   height: 70px;
   width: 100%;
+  z-index: 1;
 }
 
 nav ul{
@@ -48,6 +49,56 @@ nav ul li a {
    font-size: 14px;
 }
 /* Section part */
+
+article{
+  margin-top: 80px;
+  margin-bottom: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+article>h1{
+  text-align: center;
+  font-weight: bolder;
+  padding: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-top: 35px;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 15px;
+  margin: 2px;
+  border-radius: 5px;
+}
+
+.project>p{
+  text-align: center;
+  font-size: small;
+}
+
+.project>h3{
+  text-align: center;
+  padding: 5px;
+}
+
+.project i{
+  font-size: 50px;
+}
 
 figure{
   display: flex;
@@ -82,68 +133,15 @@ img {
   height: 120px;
 }
 
-.contents {
-  max-width: 850px;
-  width: 85%;
-  margin: 0 auto;
-  padding: 75px 0;
-}
-
-/*SECTION DIVIDER*/
-.divider > section {
-  border-bottom: 0.5px dashed #969494;
-  padding: 30px 0;
-}
-
-.divider > section:last-of-type {
-  border-bottom: none;
-}
-
-/* PROJECTS */
-
-.projects {
-  background: #ffffff;
-}
-
-.projects a {
-  color: #2f5db4;
-}
-
-.projects .btn {
-  color: #F7FFF7;
-  background: rgba(65, 105, 225, 0.9);
-  text-decoration: none;
-  padding: 7px;
-  border-radius: 15px;
-  display: inline-block;
-}
-
-.projects .btn:hover {
-  background-color: rgba(39, 86, 230, 0.9);
-}
-
-.project {
-  overflow: hidden;
-}
-
-.project img {
-  float: left;
-  margin-right: 20px;
-}
-
-.project h3 {
-  margin-top: 0;
-}
-
 /*FOOTER PART*/
 footer{
   position: fixed;
   display: flex;
-  background-color: rgba(65, 105, 225, 0.9);
+  background-color: rgba(65, 105, 225, 1);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 150px;
+  height: 100px;
   width: 100%;
   bottom: 0;
 }
@@ -155,7 +153,7 @@ footer ul{
 
 footer ul li{
   display: inline-block;
-  padding: 8px 12px;
+  padding: 5px;
   border-radius: 2px;
 }
 
@@ -165,18 +163,18 @@ footer li a{
 }
 
 footer i{
-  width: 40px;
-  height: 40px;
+  width: 25px;
+  height: 25px;
   color: #fff;
   cursor: pointer;
   border-radius: 50%;
   border: 1px solid #fff;
-  padding: 10px;
   text-align: center;
+  padding: 4px;
 }
 
 footer p{
-  font-size: 12px;
+  font-size: 10px;
   color: #fff;
   text-align: center;
 }
