@@ -82,6 +82,13 @@ img {
   height: 120px;
 }
 
+.contents {
+  max-width: 850px;
+  width: 85%;
+  margin: 0 auto;
+  padding: 75px 0;
+}
+
 /*SECTION DIVIDER*/
 .divider > section {
   border-bottom: 0.5px dashed #969494;
