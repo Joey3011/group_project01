@@ -134,7 +134,7 @@ img {
   height: 120px;
 }
 
-/*hyperlink will not change color after visited*/
+/* hyperlink will not change color after visited */
 a:visited {
   color: blue; 
   background-color: transparent;
