@@ -185,7 +185,7 @@ h1{
 footer{
   position: fixed;
   display: flex;
-  background-color: rgba(65, 105, 225, 1);
+  background-color: rgba(65, 105, 225, 0.9);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -403,7 +403,7 @@ nav .navbar .nav-links{
   display: block;
   max-width: 270px;
   width: 100%;
-  background-color: rgba(65, 105, 225, 1);
+  background-color: rgba(65, 105, 225, 0.9);
   line-height: 40px;
   padding: 15px;
   transition: left 1.1s ease;
